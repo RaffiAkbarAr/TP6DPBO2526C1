@@ -10,7 +10,6 @@ Flappy Bird merupakan permainan sederhana yang dibuat menggunakan bahasa pemrogr
 
 Pemain mengendalikan burung agar dapat melewati rintangan berupa pipa tanpa menabraknya atau jatuh ke batas bawah jendela permainan. Setiap kali burung berhasil melewati pipa, skor akan bertambah satu poin.
 
-Program ini dibuat untuk memenuhi Tugas Praktikum 6 mata kuliah Desain dan Pemrograman Berorientasi Objek (DPBO), berdasarkan materi Java Swing GUI: Gamedev Part 2.
 
 ## 2. Desain Program
 
@@ -62,18 +61,14 @@ Class `AudioManager` mengatur pemutaran audio dalam permainan, termasuk musik la
 │       game over .png
 │       game play.png
 │       Menu Awal.png
+│       restart .png
+│       video gameplay.mp4
 │
 └───src
-    │   AudioManager.class
     │   AudioManager.java
-    │   GamePanel.class
     │   GamePanel.java
-    │   Main$MenuPanel.class
-    │   Main.class
     │   Main.java
-    │   Pipe.class
     │   Pipe.java
-    │   Player.class
     │   Player.java
     │
     ├───assets
